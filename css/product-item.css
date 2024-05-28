@@ -85,3 +85,20 @@
 .product-content:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 991px) {
+  .product-content {
+    width: 23%;
+  }
+}
+@media (max-width: 768px) {
+  .product-content {
+    width: 32%;
+  }
+}
+
+@media (max-width: 450px) {
+  .product-content {
+    width: 47%;
+  }
+}

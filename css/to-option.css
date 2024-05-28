@@ -20,7 +20,8 @@ header {
   color: #faf6e7;
 }
 
-.to-receive, .category-items {
+.to-receive,
+.category-items {
   margin-top: 10rem;
   background-color: white;
   border-top-left-radius: 3rem;
@@ -139,4 +140,31 @@ header {
 
 .lead-content p {
   color: #777777;
+}
+
+@media (max-width: 991px) {
+  .lead-container {
+    padding: 0.8rem 1.5rem;
+  }
+  .lead-content a {
+    padding: 0.3rem 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .lead-container {
+    padding: 0.8rem 0.75rem;
+  }
+  .lead-content a {
+    padding: 0.2rem 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .lead-container {
+    padding: 0.2rem 0.4rem;
+  }
+  .lead-content a {
+    padding: 0.2rem 1rem;
+    font-size: 0.2rem;
+  }
 }
